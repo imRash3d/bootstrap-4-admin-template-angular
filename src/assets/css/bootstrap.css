@@ -14499,7 +14499,7 @@ pre {
       background-image: -webkit-linear-gradient(left, #d209fa 1%, #4f81d4 100%);
       background-image: -moz-linear-gradient(left, #d209fa 1%, #4f81d4 100%);
       background-image: -o-linear-gradient(left, #d209fa 1%, #4f81d4 100%);
-      background-image: linear-gradient(left, #d209fa 1%, #4f81d4 100%);
+      background-image: linear-gradient(to left, #d209fa 1%, #4f81d4 100%);
       color: #ffffff;
       border: none;
       line-height: 1;
@@ -14570,7 +14570,7 @@ pre {
   .card-weather .card-body {
     background: #ffffff; }
     .card-weather .card-body:first-child {
-      background: url("./assets/images/samples/weather.svg") no-repeat center;
+      background: url("../images/samples/weather.svg") no-repeat center;
       background-size: cover; }
   .card-weather .weather-date-location {
     padding: 0 0 38px; }
@@ -16105,11 +16105,11 @@ ul {
 /* === Landing screens === */
 /* Auth */
 .auth.auth-bg-1 {
-  background: url("./assets/images/auth/login_1.jpg");
+  background: url("../images/auth/login_1.jpg");
   background-size: cover; }
 
 .auth.register-bg-1 {
-  background: url("./assets/images/auth/register.jpg") center center no-repeat;
+  background: url("../images/auth/register.jpg") center center no-repeat;
   background-size: cover; }
 
 .auth.theme-one .auto-form-wrapper {

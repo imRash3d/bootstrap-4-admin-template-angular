@@ -7,7 +7,12 @@ const routes: Routes = [
     {
         path: '',
         component: AdminComponent,
-        
+        children:[
+            {
+                path: '',
+                loadChildren: './dashboard/dashboard.module#DashboardModule',
+            }
+        ]
     },
 ];
 

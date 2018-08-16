@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScriptLoaderService } from '../global/script-loader.service';
 
 @Component({
   selector: 'app-admin',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _script:ScriptLoaderService) { }
 
   ngOnInit() {
+    this._script.loadScripts('body', ['assets/js/custom.js']).then(result => {
+    });
   }
 
 }
+

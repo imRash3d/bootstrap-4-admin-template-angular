@@ -7,7 +7,7 @@ const routes: Routes = [
         loadChildren: '../app/admin/admin.module#AdminModule',
     },
     {
-      path: 'login',
+      path: '',
       loadChildren: '../app/auth/auth.module#AuthModule',
   },
    

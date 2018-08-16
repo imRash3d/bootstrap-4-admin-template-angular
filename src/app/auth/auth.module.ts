@@ -9,8 +9,12 @@ const routes: Routes = [
       component: AuthComponent,
       children:[
         {
-          path: '',
+          path: 'login',
           loadChildren: './login/login.module#LoginModule'
+      },
+      {
+        path: 'register',
+        loadChildren: './register/register.module#RegisterModule'
       },
       ]
   },
